@@ -14,14 +14,10 @@ set(CN_CURRENCY_TICKER "PBTC")
 
 **3. Set symbolic link to coin sources at the same level as `src`. For example:**
 
-```
-ln -s ../cryptonote cryptonote
-```
-
-Alternative way is to create git submodule:
+Create git submodule:
 
 ```
-git submodule add https://github.com/cryptonotefoundation/cryptonote.git cryptonote
+git submodule add https://github.com/tdogtoken/PitcoinSourceCode.git cryptonote
 ```
 
 Replace URL with git remote repository of your coin.
